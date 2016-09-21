@@ -1,3 +1,13 @@
 ProjectAuld
+<<<<<<< Updated upstream
 James Keohane say HELLO ! Again ! Again gain
 Hello - Ryan
+=======
+<<<<<<< HEAD
+James Keohane say HELLO ! Again !
+=======
+Ryan Kennedy Hello
+=======
+James Keohane say HELLO ! Again ! Again gain
+>>>>>>> master
+>>>>>>> Stashed changes
