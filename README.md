@@ -3,6 +3,7 @@ ProjectAuld
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 James Keohane say HELLO ! Again ! Again gain
+<<<<<<< HEAD
 Hello - Ryan
 =======
 <<<<<<< HEAD
@@ -18,4 +19,7 @@ James Keohane say HELLO ! Again ! Again gain
 >>>>>>> master
 =======
 James Keohane say HELLO ! Again ! Again gain
+>>>>>>> master
+=======
+Vincent
 >>>>>>> master
