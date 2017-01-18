@@ -1,9 +1,9 @@
-﻿Log file open, 01/18/17 09:34:08
+﻿Log file open, 01/18/17 09:19:43
 LogInit:Display: Running engine for game: ProjectAuld
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1233979528) SRandInit(1233979528).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.102288
+LogInit:Display: RandInit(-1665695389) SRandInit(-1665695389).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066160
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -133,139 +133,168 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.01.18-08.34.08:968][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.18-08.34.08:968][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.01.18-08.34.08:978][  0]LogInit: Computer: VELAMOBILE
-[2017.01.18-08.34.08:978][  0]LogInit: User: James
-[2017.01.18-08.34.08:978][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.01.18-08.34.08:978][  0]LogInit: High frequency timer resolution =3.124992 MHz
-[2017.01.18-08.34.08:979][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.01.18-08.34.08:979][  0]LogMemory: Platform Memory Stats for Windows
-[2017.01.18-08.34.08:979][  0]LogMemory: Process Physical Memory: 255.82 MB used, 255.82 MB peak
-[2017.01.18-08.34.08:979][  0]LogMemory: Process Virtual Memory: 259.99 MB used, 259.99 MB peak
-[2017.01.18-08.34.08:979][  0]LogMemory: Physical Memory: 5632.17 MB used, 8127.91 MB total
-[2017.01.18-08.34.08:979][  0]LogMemory: Virtual Memory: 622.50 MB used, 134217728.00 MB total
-[2017.01.18-08.34.09:007][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
-[2017.01.18-08.34.09:605][  0]LogD3D11RHI: D3D11 adapters:
-[2017.01.18-08.34.09:640][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2017.01.18-08.34.09:640][  0]LogD3D11RHI:       3035/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.01.18-08.34.09:642][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.01.18-08.34.09:642][  0]LogD3D11RHI:       0/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.01.18-08.34.09:642][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.01.18-08.34.09:647][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.01.18-08.34.09:648][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2017.01.18-08.34.09:648][  0]LogWindows: EnumDisplayDevices:
-[2017.01.18-08.34.09:648][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2017.01.18-08.34.09:648][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.01.18-08.34.09:648][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.01.18-08.34.09:648][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.01.18-08.34.09:648][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.01.18-08.34.09:648][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2017.01.18-08.34.09:648][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
-[2017.01.18-08.34.09:648][  0]LogD3D11RHI:      Driver Date: 12-11-2016
-[2017.01.18-08.34.09:648][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.01.18-08.34.09:663][  0]LogD3D11RHI: Async texture creation enabled
-[2017.01.18-08.34.09:674][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.01.18-08.34.09:675][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Intermediate/Shaders/WorkingDirectory/14040/).
-[2017.01.18-08.34.09:675][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/James/AppData/Local/Temp/UnrealShaderWorkingDir/BA78935942B5DB209587CCA414815FAC/'.
-[2017.01.18-08.34.09:675][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.01.18-08.34.10:882][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.01.18-08.34.10:890][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.01.18-08.34.10:898][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.01.18-08.34.10:907][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.01.18-08.34.10:915][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.01.18-08.34.10:922][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.01.18-08.34.10:929][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.01.18-08.34.10:935][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.01.18-08.34.10:942][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.01.18-08.34.10:948][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.01.18-08.34.10:955][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.01.18-08.34.10:969][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.01.18-08.34.10:969][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.01.18-08.34.10:970][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.01.18-08.34.10:990][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.01.18-08.34.10:997][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.01.18-08.34.11:003][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.01.18-08.34.11:009][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.01.18-08.34.11:016][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.01.18-08.34.11:066][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.01.18-08.34.11:066][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.01.18-08.34.11:146][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.01.18-08.34.13:212][  0]LogDerivedDataCache: Loaded boot cache 2.07s 62MB C:/Users/James/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.01.18-08.34.13:212][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/James/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.01.18-08.34.13:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.01.18-08.34.13:212][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.01.18-08.34.13:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.01.18-08.34.13:212][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.01.18-08.34.13:239][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.01.18-08.34.13:250][  0]LogDerivedDataCache: Using Local data cache path C:/Users/James/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.01.18-08.34.13:458][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.18-08.34.13:461][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.01.18-08.34.13:559][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.01.18-08.34.13:559][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.01.18-08.34.13:559][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.01.18-08.34.13:628][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.01.18-08.34.14:123][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projectauld, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1108441123
-[2017.01.18-08.34.14:159][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2017.01.18-08.34.14:175][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.012686 seconds
-[2017.01.18-08.34.14:181][  0]LogUObjectArray: 29777 objects as part of root set at end of initial load.
-[2017.01.18-08.34.14:181][  0]LogUObjectAllocator: 6124696 out of 0 bytes used by permanent object pool.
-[2017.01.18-08.34.14:181][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.01.18-08.34.14:188][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.01.18-08.34.14:742][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.18-08.34.14:742][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.18-08.34.54:183][  0]LogWmfMedia: Failed to load mf.dll
-[2017.01.18-08.34.54:183][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
-[2017.01.18-08.34.54:194][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
-[2017.01.18-08.34.54:194][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
-[2017.01.18-08.34.54:195][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
-[2017.01.18-08.34.54:289][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.01.18-08.34.55:141][  0]SourceControl: Info Source control is disabled
-[2017.01.18-08.34.55:239][  0]SourceControl: Info Source control is disabled
-[2017.01.18-08.34.55:249][  0]SourceControl: Info Source control is disabled
-[2017.01.18-08.34.55:260][  0]SourceControl: Info Source control is disabled
-[2017.01.18-08.34.56:069][  0]LogEngine: Initializing Engine...
-[2017.01.18-08.34.56:070][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.01.18-08.34.56:206][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.01.18-08.34.56:221][  0]LogInit: XAudio2 using 'VX228-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.01.18-08.34.56:231][  0]LogInit: FAudioDevice initialized.
-[2017.01.18-08.34.56:266][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/James/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.01.18-08.34.56:276][  0]LogInit: Texture streaming: Enabled
-[2017.01.18-08.34.56:351][  0]LogInit: Transaction tracking system initialized
-[2017.01.18-08.34.56:389][  0]BlueprintLog: New page: Editor Load
-[2017.01.18-08.34.56:525][  0]LocalizationService: Info Localization service is disabled
-[2017.01.18-08.34.56:797][  0]LogConsoleResponse:Display: 
-[2017.01.18-08.34.58:015][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.01.18-08.34.58:015][  0]LogCook:Display: Mobile HDR setting 1
-[2017.01.18-08.34.58:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/' took 0.04s
-[2017.01.18-08.34.59:475][  0]SourceControl: Info Source control is disabled
-[2017.01.18-08.34.59:475][  0]Cmd: MAP LOAD FILE="../../../../../../Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.18-08.34.59:548][  0]LightingResults: New page: Lighting Build
-[2017.01.18-08.34.59:558][  0]MapCheck: New page: Map Check
-[2017.01.18-08.34.59:558][  0]LightingResults: New page: Lighting Build
-[2017.01.18-08.35.01:729][  0]LogTexture:Display: Building textures: T_Statue_N (BC5)
-[2017.01.18-08.35.02:300][  0]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
-[2017.01.18-08.35.04:987][  0]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
-[2017.01.18-08.35.11:652][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2017.01.18-08.35.11:813][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2017.01.18-08.35.11:846][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2017.01.18-08.35.11:903][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2017.01.18-08.35.11:911][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2017.01.18-08.35.11:917][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2017.01.18-08.35.13:668][  0]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
-[2017.01.18-08.35.19:603][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.01.18-08.35.20:165][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.18-08.35.20:191][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.18-08.35.20:266][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.478ms to complete.
-[2017.01.18-08.35.20:266][  0]LogFileHelpers: Loading map 'Minimal_Default' took 20.791
-[2017.01.18-08.35.21:516][  0]LogCollectionManager: Loaded 0 collections in 0.006771 seconds
-[2017.01.18-08.35.21:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Saved/Collections/' took 0.01s
-[2017.01.18-08.35.21:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/Developers/James/Collections/' took 0.01s
-[2017.01.18-08.35.21:741][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/Collections/' took 0.01s
-[2017.01.18-08.35.21:741][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
-[2017.01.18-08.35.21:777][  0]LogContentBrowser: Native class hierarchy populated in 0.0340 seconds. Added 2141 classes and 415 folders.
-[2017.01.18-08.35.21:927][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.01.18-08.35.21:927][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.01.18-08.35.21:931][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0023 seconds. Added 12 classes and 0 folders.
-[2017.01.18-08.35.21:970][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2017.01.18-08.35.24:044][  0]LogContentBrowser: Native class hiera
+[2017.01.18-09.19.44:160][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.18-09.19.44:160][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.18-09.19.44:176][  0]LogInit: Computer: VINCENT-LENOVO
+[2017.01.18-09.19.44:176][  0]LogInit: User: vince
+[2017.01.18-09.19.44:176][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.01.18-09.19.44:176][  0]LogInit: High frequency timer resolution =2.343749 MHz
+[2017.01.18-09.19.44:176][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2017.01.18-09.19.44:176][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.18-09.19.44:176][  0]LogMemory: Process Physical Memory: 256.10 MB used, 256.10 MB peak
+[2017.01.18-09.19.44:176][  0]LogMemory: Process Virtual Memory: 259.66 MB used, 259.66 MB peak
+[2017.01.18-09.19.44:176][  0]LogMemory: Physical Memory: 5804.54 MB used, 7986.05 MB total
+[2017.01.18-09.19.44:176][  0]LogMemory: Virtual Memory: 621.48 MB used, 134217728.00 MB total
+[2017.01.18-09.19.44:217][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.18-09.19.45:705][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.18-09.19.45:716][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.01.18-09.19.45:716][  0]LogD3D11RHI:       128/0/3993 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.01.18-09.19.45:719][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.18-09.19.45:719][  0]LogD3D11RHI:       0/0/3993 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.18-09.19.45:719][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.18-09.19.45:727][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.18-09.19.45:727][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.18-09.19.45:727][  0]LogWindows: EnumDisplayDevices:
+[2017.01.18-09.19.45:727][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.01.18-09.19.45:728][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.01.18-09.19.45:728][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.01.18-09.19.45:728][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.01.18-09.19.45:728][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.01.18-09.19.45:728][  0]LogD3D11RHI:   Driver Version: 20.19.15.4364 (internal:20.19.15.4364, unified:20.19.15.4364)
+[2017.01.18-09.19.45:728][  0]LogD3D11RHI:      Driver Date: 1-6-2016
+[2017.01.18-09.19.45:728][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.18-09.19.45:737][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.18-09.19.45:742][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.01.18-09.19.45:743][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Intermediate/Shaders/WorkingDirectory/4384/).
+[2017.01.18-09.19.45:743][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vince/AppData/Local/Temp/UnrealShaderWorkingDir/82B9B97D4D9300A04CEC1693EB919CA6/'.
+[2017.01.18-09.19.45:743][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.18-09.19.48:029][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.18-09.19.48:051][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.18-09.19.48:077][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.18-09.19.48:099][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.18-09.19.48:124][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.18-09.19.48:146][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.18-09.19.48:163][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.18-09.19.48:178][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.18-09.19.48:193][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.18-09.19.48:213][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.18-09.19.48:231][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.18-09.19.48:264][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.18-09.19.48:264][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.18-09.19.48:266][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.18-09.19.48:308][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.18-09.19.48:323][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.18-09.19.48:339][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.18-09.19.48:358][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.18-09.19.48:376][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.18-09.19.48:396][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.18-09.19.48:396][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.18-09.19.48:567][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.18-09.19.48:736][  0]LogDerivedDataCache: Loaded boot cache 0.17s 62MB C:/Users/vince/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.01.18-09.19.48:736][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vince/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.01.18-09.19.48:736][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.18-09.19.48:736][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.18-09.19.48:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.18-09.19.48:737][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.18-09.19.48:769][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.18-09.19.48:790][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vince/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.18-09.19.49:398][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.18-09.19.49:400][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.18-09.19.49:568][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.18-09.19.49:568][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.18-09.19.49:568][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.18-09.19.49:780][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.18-09.19.50:744][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projectauld, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1108441123
+[2017.01.18-09.19.50:805][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
+[2017.01.18-09.19.50:863][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.048962 seconds
+[2017.01.18-09.19.50:879][  0]LogUObjectArray: 29777 objects as part of root set at end of initial load.
+[2017.01.18-09.19.50:880][  0]LogUObjectAllocator: 6124704 out of 0 bytes used by permanent object pool.
+[2017.01.18-09.19.50:880][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.18-09.19.50:897][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.18-09.19.51:607][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.18-09.19.51:607][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.18-09.19.55:872][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.18-09.19.56:556][  0]SourceControl: Info Source control is disabled
+[2017.01.18-09.19.56:696][  0]SourceControl: Info Source control is disabled
+[2017.01.18-09.19.56:716][  0]SourceControl: Info Source control is disabled
+[2017.01.18-09.19.56:740][  0]SourceControl: Info Source control is disabled
+[2017.01.18-09.19.57:460][  0]LogEngine: Initializing Engine...
+[2017.01.18-09.19.57:461][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.18-09.19.57:789][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.18-09.19.57:811][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.18-09.19.57:832][  0]LogInit: FAudioDevice initialized.
+[2017.01.18-09.19.57:924][  0]LogDerivedDataCache: Saved boot cache 0.09s 62MB C:/Users/vince/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.01.18-09.19.57:944][  0]LogInit: Texture streaming: Enabled
+[2017.01.18-09.19.58:010][  0]LogInit: Transaction tracking system initialized
+[2017.01.18-09.19.58:063][  0]BlueprintLog: New page: Editor Load
+[2017.01.18-09.19.58:272][  0]LocalizationService: Info Localization service is disabled
+[2017.01.18-09.19.58:977][  0]LogConsoleResponse:Display: 
+[2017.01.18-09.19.59:354][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.18-09.19.59:354][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.18-09.19.59:712][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/' took 0.02s
+[2017.01.18-09.19.59:712][  0]SourceControl: Info Source control is disabled
+[2017.01.18-09.19.59:712][  0]Cmd: MAP LOAD FILE="../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.18-09.19.59:713][  0]LightingResults: New page: Lighting Build
+[2017.01.18-09.19.59:717][  0]MapCheck: New page: Map Check
+[2017.01.18-09.19.59:718][  0]LightingResults: New page: Lighting Build
+[2017.01.18-09.20.00:313][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2017.01.18-09.20.00:578][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.01.18-09.20.00:608][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.18-09.20.00:609][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.18-09.20.00:997][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 387.955ms to complete.
+[2017.01.18-09.20.00:997][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.285
+[2017.01.18-09.20.01:225][  0]LogCollectionManager: Loaded 0 collections in 0.004216 seconds
+[2017.01.18-09.20.01:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Saved/Collections/' took 0.01s
+[2017.01.18-09.20.01:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/Developers/vince/Collections/' took 0.01s
+[2017.01.18-09.20.01:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/Collections/' took 0.01s
+[2017.01.18-09.20.01:282][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.01.18-09.20.01:306][  0]LogContentBrowser: Native class hierarchy populated in 0.0238 seconds. Added 2141 classes and 415 folders.
+[2017.01.18-09.20.01:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.18-09.20.01:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.18-09.20.01:314][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2017.01.18-09.20.01:326][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.01.18-09.20.01:537][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.01.18-09.20.01:558][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.01.18-09.20.01:578][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.18-09.20.01:589][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.18-09.20.01:628][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.01.18-09.20.01:628][  0]LogLoad: (Engine Initialization) Total time: 18.52 seconds
+[2017.01.18-09.20.01:628][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.01.18-09.20.01:628][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.18-09.20.01:628][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.18-09.20.01:646][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.18-09.20.01:646][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.18-09.20.01:647][  0]LogOcInput: OculusInput pre-init called
+[2017.01.18-09.20.01:678][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.01.18-09.20.01:984][  0]LogRenderer: Reallocating scene render targets to support 964x436 (Frame:2).
+[2017.01.18-09.20.04:197][  3]LogAssetRegistry: Asset discovery search completed in 13.4148 seconds
+[2017.01.18-09.20.04:197][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.18-09.20.04:197][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2017.01.18-09.26.17:422][262]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.01.18-09.26.19:499][314]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.26.30:611][616]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.26.48:784][179]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.26.56:063][387]LogEditor: Attempting to add actor of class 'FloatingText' to level at -480.00,260.00,310.00
+[2017.01.18-09.26.56:832][408]LogEditor: Attempting to add actor of class 'FloatingText' to level at -480.00,-230.00,230.00
+[2017.01.18-09.27.03:095][597]Cmd: DELETE
+[2017.01.18-09.27.03:095][597]Cmd: ACTOR DELETE
+[2017.01.18-09.27.03:100][597]LogEditorActor: Deleted Actor: FloatingText
+[2017.01.18-09.27.03:161][597]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2017.01.18-09.27.05:115][663]LogEditor: Attempting to add actor of class 'FloatingText' to level at -490.00,240.00,320.00
+[2017.01.18-09.27.05:919][687]LogEditor: Attempting to add actor of class 'FloatingText' to level at -450.00,-220.00,100.00
+[2017.01.18-09.27.24:290][529]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.27.25:550][562]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.27.26:310][581]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.27.26:385][581]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.01.18-09.27.28:927][651]Cmd: TRANSACTION UNDO
+[2017.01.18-09.27.28:927][651]LogEditorTransaction: Undo Clicking on Components
+[2017.01.18-09.27.29:524][674]Cmd: TRANSACTION UNDO
+[2017.01.18-09.27.29:524][674]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.18-09.27.50:632][289]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.27.52:245][330]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.18-09.29.07:356][625]LogSavePackage: Save=247.16ms
+[2017.01.18-09.29.07:356][625]LogSavePackage: Moving '../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Saved/Minimal_DefaultDBFA41F0412BDE87619BA698FBFC36A9.tmp' to '../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.01.18-09.29.07:369][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.01.18-09.29.27:725][420]LogSavePackage: Save=185.20ms
+[2017.01.18-09.29.27:725][420]LogSavePackage: Moving '../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Saved/Minimal_Default9193AC3B4661E5B23D8FB08778E79DAD.tmp' to '../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.01.18-09.29.27:728][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/vince/Documents/Unreal Projects/ProjectAuld/ProjectAuld/Content/Starte
